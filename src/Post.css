@@ -1,24 +1,50 @@
 .post{
-  background-color: white;
-  max-width: 500px;
-  border: 1px solid lightgray;
-  margin-bottom: 45px;
+    max-width: 500px;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
 }
-.post_image{
-  width: 100%;
-  object-fit: contain;
-  border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
-}
-.post_text{
-  font-weight: normal;
-  padding: 20px 10px;
 
+.post__image{
+    object-fit: contain;
+    width: 100%;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
-.post_header{
-  display: flex;
-  align-items: center;
+
+.post__text{
+    font-weight: normal;
+    padding: 10px;
 }
-.post_avatar{
-  margin: 10px;
+
+.post__avatar{
+    object-fit: contain;
+    margin-right: 5px;
+}
+.post__header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post__commentsBox{
+    display: flex;
+    margin-top: 20px;
+}
+
+.post__input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-top: solid grey;
+}
+
+.post__button{
+    flex: 0;
+    border: none;
+    color: #6082a3;
+    padding: 10px;
+}
+
+.post__comments{
+    padding: 20 px;
 }
